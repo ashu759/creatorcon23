@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="INSERT_OR_UPDATE">
+        <access/>
+        <actions_access>true</actions_access>
+        <alter_access>true</alter_access>
+        <caller_access/>
+        <client_scripts_access>true</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>true</create_access>
+        <create_access_controls>false</create_access_controls>
+        <delete_access>false</delete_access>
+        <is_extendable>true</is_extendable>
+        <label>Pokemon</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>x_164215_pokemon_pokemon</name>
+        <number_ref display_value="POK">871b8ce6973021103804337e6253afc8</number_ref>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-06 14:05:48</sys_created_on>
+        <sys_id>fa1b8ce6973021103804337e6253af64</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Pokemon</sys_name>
+        <sys_package display_value="Pokemon World" source="x_164215_pokemon">2e6ac0e6973021103804337e6253af24</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pokemon World">2e6ac0e6973021103804337e6253af24</sys_scope>
+        <sys_update_name>sys_db_object_fa1b8ce6973021103804337e6253af64</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-06 14:05:49</sys_updated_on>
+        <update_access>true</update_access>
+        <user_role/>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+</record_update>

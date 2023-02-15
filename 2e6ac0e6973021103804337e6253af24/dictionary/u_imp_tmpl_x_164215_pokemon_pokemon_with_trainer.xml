@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="2dec14aa977021103804337e6253afde" extends="sys_import_set_row" label="Imp Tmpl X 164215 Pokemon Pokemon With Trainer" max_length="40" name="u_imp_tmpl_x_164215_pokemon_pokemon_with_trainer" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=League" label="League" max_length="32" name="u_league" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Pokemon" label="Pokemon" max_length="32" name="u_pokemon" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Story" label="Story" max_length="400" name="u_story" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Trainer" label="Trainer" max_length="32" name="u_trainer" type="string"/>
+    </element>
+</database>

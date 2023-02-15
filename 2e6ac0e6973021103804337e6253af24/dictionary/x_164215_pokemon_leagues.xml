@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="c451d4ae973021103804337e6253afcd" label="Leagues" max_length="40" name="x_164215_pokemon_leagues" type="collection">
+        <element label="End Date" max_length="40" name="end_date" type="glide_date"/>
+        <element display="true" label="Name" max_length="40" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Number of Participants" max_length="40" name="number_of_participants" type="integer"/>
+        <element label="Rules" max_length="400" name="rules" type="string_full_utf8"/>
+        <element label="Runner Up" max_length="32" name="runner_up" reference="x_164215_pokemon_trainer" type="reference"/>
+        <element label="Start Date" max_length="255" name="start_date" type="glide_date"/>
+        <element label="Winner" max_length="32" name="winner" reference="x_164215_pokemon_trainer" type="reference"/>
+        <index name="index">
+            <element name="runner_up"/>
+        </index>
+        <index name="index2">
+            <element name="winner"/>
+        </index>
+    </element>
+</database>

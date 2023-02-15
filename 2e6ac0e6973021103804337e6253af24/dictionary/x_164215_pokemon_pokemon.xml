@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="fa1b8ce6973021103804337e6253af64" label="Pokemon" max_length="40" name="x_164215_pokemon_pokemon" type="collection">
+        <element default="50" label="Attack" max_length="255" name="attack" type="integer"/>
+        <element default="50" label="Defense" max_length="255" name="defense" type="integer"/>
+        <element label="Evolved From" max_length="32" name="evolved_from" reference="x_164215_pokemon_pokemon" type="reference"/>
+        <element default="50" label="HP" max_length="255" name="hp" type="integer"/>
+        <element display="true" label="Name" mandatory="true" max_length="40" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Rank" max_length="40" name="rank" type="integer"/>
+        <element default="50" label="Speed" max_length="255" name="speed" type="integer"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element choice="3" default="normal" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Normal" sequence="0" value="normal"/>
+                <element inactive_on_update="false" label="Fire" sequence="1" value="fire"/>
+                <element inactive_on_update="false" label="Grass" sequence="2" value="grass"/>
+                <element inactive_on_update="false" label="Rock" sequence="3" value="rock"/>
+                <element inactive_on_update="false" label="Dragon" sequence="4" value="dragon"/>
+                <element inactive_on_update="false" label="Water" sequence="5" value="water"/>
+                <element inactive_on_update="false" label="Fly" sequence="6" value="fly"/>
+                <element inactive_on_update="false" label="Steel" sequence="7" value="steel"/>
+                <element inactive_on_update="false" label="Electric" sequence="8" value="electric"/>
+                <element inactive_on_update="false" label="Poison" sequence="9" value="poison"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="evolved_from"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

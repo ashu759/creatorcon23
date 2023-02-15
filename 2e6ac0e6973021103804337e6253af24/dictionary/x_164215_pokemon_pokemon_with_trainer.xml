@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="0480186e973021103804337e6253af9c" label="Pokemon with Trainer" max_length="40" name="x_164215_pokemon_pokemon_with_trainer" type="collection">
+        <element label="League" max_length="32" name="league" reference="x_164215_pokemon_leagues" type="reference"/>
+        <element label="Pokemon" max_length="32" name="pokemon" reference="x_164215_pokemon_pokemon" type="reference"/>
+        <element label="Story" max_length="400" name="story" type="string"/>
+        <element label="Trainer" max_length="32" name="trainer" reference="x_164215_pokemon_trainer" type="reference"/>
+        <index name="index">
+            <element name="league"/>
+        </index>
+        <index name="index2">
+            <element name="pokemon"/>
+        </index>
+        <index name="index3">
+            <element name="trainer"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="b3825cee973021103804337e6253af95" sys_domain="global" table="x_164215_pokemon_leagues" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-02-06 14:38:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>33825cee973021103804337e6253af98</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_164215_pokemon_leagues" name="x_164215_pokemon_leagues" sys_domain="global" view="Default view">b3825cee973021103804337e6253af95</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_164215_pokemon_leagues" sys_domain="global" view="Default view">db51d86e973021103804337e6253af70</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-02-06 14:38:22</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-02-06 14:38:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3f825cee973021103804337e6253afff</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_164215_pokemon_leagues" name="x_164215_pokemon_leagues" sys_domain="global" view="Default view">b3825cee973021103804337e6253af95</sys_ui_form>
+            <sys_ui_section caption="Participation" display_value="Participation" name="x_164215_pokemon_leagues" sys_domain="global" view="Default view">7b825cee973021103804337e6253af94</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-02-06 15:17:44</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_164215_pokemon_leagues</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-02-06 14:38:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b3825cee973021103804337e6253af95</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_164215_pokemon_leagues</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Pokemon World" source="x_164215_pokemon">2e6ac0e6973021103804337e6253af24</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Pokemon World">2e6ac0e6973021103804337e6253af24</sys_scope>
+            <sys_update_name>sys_ui_form_sections_b3825cee973021103804337e6253af95</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-02-06 14:38:21</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
