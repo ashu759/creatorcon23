@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="number_of_titles_won" label="Number of Titles Won" language="en" table="x_164215_pokemon_trainer">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>number_of_titles_won</element>
+            <help/>
+            <hint/>
+            <label>Number of Titles Won</label>
+            <language>en</language>
+            <name>x_164215_pokemon_trainer</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-02-06 14:24:37</sys_created_on>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>Number of Titles Won</sys_name>
+            <sys_package display_value="Pokemon World" source="x_164215_pokemon">2e6ac0e6973021103804337e6253af24</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Pokemon World">2e6ac0e6973021103804337e6253af24</sys_scope>
+            <sys_update_name>sys_documentation_x_164215_pokemon_trainer_number_of_titles_won_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-02-06 14:24:40</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

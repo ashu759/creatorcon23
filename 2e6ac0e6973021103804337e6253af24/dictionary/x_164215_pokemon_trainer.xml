@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="03cd4caa973021103804337e6253af0c" label="Trainer" max_length="40" name="x_164215_pokemon_trainer" type="collection">
+        <element label="Description" max_length="400" name="description" type="string"/>
+        <element default="150" label="Height (in cm)" max_length="255" name="height" type="float"/>
+        <element label="Location" max_length="32" name="locaion" reference="cmn_location" type="reference"/>
+        <element display="true" label="Name" max_length="40" name="name" type="string"/>
+        <element label="Number of Titles Participated" max_length="40" name="number_of_titles_participated" type="integer"/>
+        <element label="Number of Titles Won" max_length="40" name="number_of_titles_won" type="integer"/>
+        <element label="Rank" max_length="40" name="rank" type="integer"/>
+        <element choice="3" default="pokemon_trainer" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Master Trainer" sequence="0" value="master_trainer"/>
+                <element inactive_on_update="false" label="Pokemon Trainer" sequence="1" value="pokemon_trainer"/>
+                <element inactive_on_update="false" label="Nurse" sequence="2" value="nurse"/>
+                <element inactive_on_update="false" label="Nutritionist" sequence="3" value="nutritionist"/>
+                <element inactive_on_update="false" label="Civil" sequence="4" value="civil"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="locaion"/>
+        </index>
+    </element>
+</database>

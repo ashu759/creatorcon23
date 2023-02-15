@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="c3aa1ce6977021103804337e6253af34" extends="sys_import_set_row" label="Imp Tmpl X 164215 Pokemon Leagues" max_length="40" name="u_imp_tmpl_x_164215_pokemon_leagues" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Description" label="Description" max_length="225" name="u_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Height (in cm)" label="Height (in cm)" max_length="40" name="u_height__in_cm_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Locaion" label="Locaion" max_length="40" name="u_locaion" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Name" label="Name" max_length="40" name="u_name" type="string"/>
+        <element attributes="import_attribute_name=Number of Titles Won" label="Number of Titles Won" max_length="40" name="u_number_of_titles_won" type="integer"/>
+        <element attributes="import_attribute_name=Number of Titles Participated" label="Number of Titles Participated" max_length="40" name="u_number_of_ti_s_participated" type="integer"/>
+        <element attributes="import_attribute_name=Rank" label="Rank" max_length="40" name="u_rank" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Type" label="Type" max_length="40" name="u_type" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="1326d4e2977021103804337e6253af53" extends="sys_import_set_row" label="Imp Tmpl X 164215 Pokemon Pokemon" max_length="40" name="u_imp_tmpl_x_164215_pokemon_pokemon" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Attack" label="Attack" max_length="255" name="u_attack" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Defense" label="Defense" max_length="255" name="u_defense" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Evolved From" label="Evolved From" max_length="32" name="u_evolved_from" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=HP" label="HP" max_length="255" name="u_hp" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Name" label="Name" max_length="40" name="u_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Number" label="Number" max_length="40" name="u_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Rank" label="Rank" max_length="40" name="u_rank" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Speed" label="Speed" max_length="255" name="u_speed" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Type" label="Type" max_length="40" name="u_type" type="string"/>
+    </element>
+</database>
