@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description/>
+        <name>x_164215_pokemon_pokemon_with_trainer</name>
+        <operation display_value="delete">delete</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-06 14:29:26</sys_created_on>
+        <sys_id>8180586e973021103804337e6253af71</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_164215_pokemon_pokemon_with_trainer</sys_name>
+        <sys_package display_value="Pokemon" source="x_164215_pokemon">2e6ac0e6973021103804337e6253af24</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pokemon">2e6ac0e6973021103804337e6253af24</sys_scope>
+        <sys_update_name>sys_security_acl_8180586e973021103804337e6253af71</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-06 14:29:26</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Pokemon World">2e6ac0e6973021103804337e6253af24</application>
+        <file_path/>
+        <instance_id>2bf2e8aadb4f3304f492c597059619bd</instance_id>
+        <instance_name>dev90931</instance_name>
+        <name>sys_security_acl_8180586e973021103804337e6253af71</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description/><name>x_164215_pokemon_pokemon_with_trainer</name><operation display_value="delete">delete</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-02-06 14:29:26</sys_created_on><sys_id>8180586e973021103804337e6253af71</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_164215_pokemon_pokemon_with_trainer</sys_name><sys_package display_value="Pokemon" source="x_164215_pokemon">2e6ac0e6973021103804337e6253af24</sys_package><sys_policy/><sys_scope display_value="Pokemon">2e6ac0e6973021103804337e6253af24</sys_scope><sys_update_name>sys_security_acl_8180586e973021103804337e6253af71</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-02-06 14:29:26</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>1657903763</payload_hash>
+        <record_name>x_164215_pokemon_pokemon_with_trainer</record_name>
+        <reverted_from/>
+        <source>6a6ac0e6973021103804337e6253af3f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-06 14:29:26</sys_created_on>
+        <sys_id>8580586e973021103804337e6253af73</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1862721b7ae0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-06 14:29:26</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>c980586eae3021106e8bf3a79e818d72</update_guid>
+        <update_guid_history>c980586eae3021106e8bf3a79e818d72:1657903763</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ashutosh.munot</sys_created_by>
+        <sys_created_on>2023-02-15 05:08:50</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>6a970a8d6d294c15a35f76cd1cd6e551</sys_id>
+        <sys_metadata>8180586e973021103804337e6253af71</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_164215_pokemon_pokemon_with_trainer</sys_name>
+        <sys_package display_value="Pokemon World" source="x_164215_pokemon">2e6ac0e6973021103804337e6253af24</sys_package>
+        <sys_parent display_value="x_164215_pokemon_pokemon_with_trainer">4080186e973021103804337e6253af9f</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Pokemon World">2e6ac0e6973021103804337e6253af24</sys_scope>
+        <sys_scope_delete display_value="">6b7748a9082a4410a8c9ae51a8b66210</sys_scope_delete>
+        <sys_update_name>sys_security_acl_8180586e973021103804337e6253af71</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_8180586e973021103804337e6253af71">8580586e973021103804337e6253af73</sys_update_version>
+        <sys_updated_by>ashutosh.munot</sys_updated_by>
+        <sys_updated_on>2023-02-15 05:08:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
